@@ -1,0 +1,29 @@
+#N canvas 525 281 450 300 10;
+#X obj 111 203 readsf~;
+#X obj 177 204 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 111 240 dac~;
+#X msg 23 172 0;
+#X msg 111 168 open JUST_snare_rag.wav \, 1;
+#X obj 114 35 inlet;
+#X obj 114 60 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 23 35 inlet;
+#X obj 23 60 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 23 85 s startSnare;
+#X obj 114 85 s stopSnare;
+#X obj 111 128 r startSnare;
+#X obj 23 128 r stopSnare;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 0 1 1 0;
+#X connect 1 0 4 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 10 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 11 0 4 0;
+#X connect 12 0 3 0;
