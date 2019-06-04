@@ -17,17 +17,6 @@ final project for CS 510: Computers, Sound &amp; Music
     - notein object for midi keyboard use. Optional midi note slider and random midi note generator functions (not-currently attached to midi note send)
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### snare_looper.pd
 - abstraction to open and play a wave file in a loop
 
@@ -40,3 +29,11 @@ final project for CS 510: Computers, Sound &amp; Music
     - play recording in a loop option
     - stop playback option
     - can stop and start multiple times
+
+### synth2.pd
+- second iteration of primary synth patch
+    - now with drum machine with two beats to select from
+        - added filter control for drum bus
+    - added melody sequencer with pattern selector
+    - main tempo control for melody sequencer and drum machine
+
