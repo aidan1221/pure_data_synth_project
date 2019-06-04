@@ -15,3 +15,7 @@ final project for CS 510: Computers, Sound &amp; Music
     - two oscillators, each with three-way switch for square/sine/saw wave
     - hi pass, low pass, bandpass filter selector
     - notein object for midi keyboard use. Optional midi note slider and random midi note generator functions (not-currently attached to midi note send)
+
+
+### snare_looper.pd
+-  
