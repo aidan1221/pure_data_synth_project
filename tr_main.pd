@@ -1,0 +1,43 @@
+#N canvas 990 331 450 440 10;
+#X obj 20 44 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X msg 20 67 \; pd dsp \$1;
+#X obj 19 272 dac~ 1;
+#X obj 118 155 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 118 171 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 118 187 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 16 104 Audio In;
+#X text 135 155 start recording;
+#X text 136 170 stop recording;
+#X obj 20 123 adc~ 1;
+#X text 16 291 Audio Out;
+#X obj 20 20 loadbang;
+#X obj 118 139 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 118 203 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 135 137 start when recording is finished;
+#X text 137 187 play;
+#X text 136 203 stop playback;
+#X obj 19 234 recorder_looper 1;
+#X obj 90 349 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 90 333 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 107 332 start snare;
+#X text 107 349 stop Snare;
+#X obj 21 381 snare_looper;
+#X connect 0 0 1 0;
+#X connect 3 0 17 2;
+#X connect 4 0 17 3;
+#X connect 5 0 17 4;
+#X connect 9 0 17 0;
+#X connect 11 0 0 0;
+#X connect 12 0 17 1;
+#X connect 13 0 17 5;
+#X connect 17 0 2 0;
+#X connect 18 0 22 1;
+#X connect 19 0 22 0;
