@@ -15,3 +15,11 @@ final project for CS 510: Computers, Sound &amp; Music
     - two oscillators, each with three-way switch for square/sine/saw wave
     - hi pass, low pass, bandpass filter selector
     - notein object for midi keyboard use. Optional midi note slider and random midi note generator functions (not-currently attached to midi note send)
+
+
+### synth2.pd
+- second iteration of primary synth patch
+    - now with drum machine with two beats to select from
+        - added filter control for drum bus
+    - added melody sequencer with pattern selector
+    - main tempo control for melody sequencer and drum machine
