@@ -17,5 +17,26 @@ final project for CS 510: Computers, Sound &amp; Music
     - notein object for midi keyboard use. Optional midi note slider and random midi note generator functions (not-currently attached to midi note send)
 
 
+
+
+
+
+
+
+
+
+
+
+
 ### snare_looper.pd
--  
+- abstraction to open and play a wave file in a loop
+
+
+### recorder_looper.pd
+- abstraction to record sounds and play in a loop. Multiples can be used at once.
+    - start playing as soon as recording is finished option
+    - start recording option
+    - stop recording option--can't be pressed until after recording is started
+    - play recording in a loop option
+    - stop playback option
+    - can stop and start multiple times
