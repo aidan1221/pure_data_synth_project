@@ -37,3 +37,7 @@ final project for CS 510: Computers, Sound &amp; Music
     - added melody sequencer with pattern selector
     - main tempo control for melody sequencer and drum machine
 
+## Final Assessment
+For this project we wanted to experiment with modular synthesis using Pure Data. At the end of the project, Aidan built the main patch for the synth body, including 3 oscillators to select between sine, square, and saw waves, a drum machine beat generator, hi/lo/band pass filter control for oscillators and drum bus, frequenecy modulation controls, and a random melody generator with major/minor key selection. Trina built a recorded audio looping playback patch so that internal audio could be recorded and looped. This can also record external audio from microphone input.
+Aidan would have liked to implement envelope controls for amp level and filter cutoffs, as well as a more detailed melody generation system, possibly something along the lines of a chord selector and arpeggiator.
+Trina would have liked to fine tune the timing on the looping/playback from recorded audio so that the loops were smoother and recording would stop automatically when the table size was reached. Additionally, possibly a larger instrument bank of recorded samples/one-shots to be able to add to recorded sections. 
