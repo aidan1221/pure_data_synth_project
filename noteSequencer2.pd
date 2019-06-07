@@ -1,4 +1,4 @@
-#N canvas 0 23 1440 778 10;
+#N canvas 0 -877 1440 778 10;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array melody 8 float 3;
 #A 0 60 62 63 65 67 68 70 72;
@@ -66,8 +66,8 @@
 #X obj 61 145 inlet;
 #X obj 20 525 loadbang;
 #X obj 795 442 inlet;
-#X obj 540 146 sel 0 1 2 3 4 5 6 7 8 9 10;
-#X obj 540 124 inlet;
+#X obj 510 107 sel 0 1 2 3 4 5 6 7 8 9 10;
+#X obj 510 85 inlet;
 #X obj 413 116 loadbang;
 #X obj 469 259 t f b;
 #X connect 2 0 3 0;
